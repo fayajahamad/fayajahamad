@@ -12,7 +12,7 @@
   [![Email](https://img.shields.io/badge/Email-Contact-137C99?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fayajahamedameer@gmail.com)
   [![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Website-245E75?style=for-the-badge&logo=vercel&logoColor=white)](https://my-portfolio-ruby-sigma-45hja9i8df.vercel.app/)
 
-  [About](#about-me) · [Projects](#featured-engineering-projects) · [Skills](#technical-toolkit) · [GitHub Metrics](#github-metrics) · [Contact](#connect)
+  [About](#about-me) · [Projects](#featured-engineering-projects) · [Technical Toolkit](#technical-toolkit) · [Contact](#connect)
 </div>
 
 ---
@@ -101,23 +101,68 @@ A Python-based network-monitoring project focused on **host availability, latenc
 ## Technical Toolkit
 
 <div align="center">
-  <img src="./assets/tech-stack.svg" alt="Engineering tools organized by infrastructure, operations, security and development" width="100%" />
+  <sub>NETWORK-FIRST ENGINEERING · CLOUD INFRASTRUCTURE · DEFENSIVE SECURITY · AUTOMATION</sub>
+</div>
+
+### 01 — Network Engineering & Defensive Security
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Cisco%20Packet%20Tracer-15334A?style=for-the-badge&amp;logo=cisco&amp;logoColor=50D7FF" alt="Cisco Packet Tracer" />
+  <img src="https://img.shields.io/badge/GNS3-15334A?style=for-the-badge&amp;logoColor=white" alt="GNS3" />
+  <img src="https://img.shields.io/badge/Wireshark-15334A?style=for-the-badge&amp;logo=wireshark&amp;logoColor=4BC4FF" alt="Wireshark" />
+  <img src="https://img.shields.io/badge/pfSense-15334A?style=for-the-badge&amp;logoColor=white" alt="pfSense" />
+  <img src="https://img.shields.io/badge/Snort%20IDS%2FIPS-15334A?style=for-the-badge&amp;logoColor=white" alt="Snort IDS/IPS" />
+  <img src="https://img.shields.io/badge/FreeBSD-15334A?style=for-the-badge&amp;logo=freebsd&amp;logoColor=FF675C" alt="FreeBSD" />
+  <img src="https://img.shields.io/badge/Asterisk%20VoIP-15334A?style=for-the-badge&amp;logoColor=white" alt="Asterisk VoIP" />
+</div>
+
+<div align="center">
+  <sub>TCP/IP · Subnetting · VLANs · Routing & Switching · NAT · Firewalls · Network Troubleshooting</sub>
+</div>
+
+### 02 — Cloud, Infrastructure & Monitoring
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=aws,docker,linux,windows,grafana,prometheus&amp;theme=dark&amp;perline=6" alt="AWS, Docker, Linux, Windows, Grafana and Prometheus" />
+</div>
+
+<div align="center">
+  <sub>AWS fundamentals · Containerized labs · Windows Server · Linux administration · Dashboards & alerting</sub>
+</div>
+
+### 03 — Programming, Scripting & Web Technologies
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=py,java,js,html,css,php,nextjs,nodejs,bash,powershell&amp;theme=dark&amp;perline=10" alt="Python, Java, JavaScript, HTML, CSS, PHP, Next.js, Node.js, Bash and PowerShell" />
+</div>
+
+<div align="center">
+  <sub>Python automation · Scripting · Web fundamentals · Development tooling</sub>
+</div>
+
+### 04 — Developer Tools & Workflow
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,idea,postman,vercel&amp;theme=dark&amp;perline=7" alt="Git, GitHub, GitHub Actions, VS Code, IntelliJ IDEA, Postman and Vercel" />
+</div>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Oracle%20VirtualBox-15334A?style=for-the-badge&amp;logo=virtualbox&amp;logoColor=50D7FF" alt="Oracle VirtualBox" />
+  <img src="https://img.shields.io/badge/NetBeans-15334A?style=for-the-badge&amp;logo=apachenetbeanside&amp;logoColor=white" alt="NetBeans" />
+  <img src="https://img.shields.io/badge/XAMPP-15334A?style=for-the-badge&amp;logo=xampp&amp;logoColor=FFB15C" alt="XAMPP" />
+  <img src="https://img.shields.io/badge/WAMP-15334A?style=for-the-badge&amp;logoColor=white" alt="WAMP" />
 </div>
 
 <details>
-<summary><b>View detailed skills and environments</b></summary>
+<summary><strong>View full skills & engineering foundations</strong></summary>
 
-| Area | Tools and technologies |
+| Domain | Tools and knowledge |
 | --- | --- |
-| **Networking** | Cisco Packet Tracer, GNS3, Wireshark, TCP/IP, VLANs, subnetting, routing and switching |
-| **Operating Systems** | Linux, FreeBSD, Windows Server |
-| **Security** | pfSense, Snort IDS, access control and network-security labs |
-| **Cloud / DevOps** | AWS (learning), Docker, GitHub Actions, Git, Bash, PowerShell |
-| **Monitoring** | Grafana, Prometheus, Python-based network monitoring |
-| **Programming** | Python, Java, PHP, HTML, CSS, JavaScript, Next.js, Node.js |
-| **Developer tools** | VS Code, IntelliJ IDEA, NetBeans, Postman, XAMPP, WAMP |
-| **Virtualization** | Oracle VirtualBox |
-| **Voice / UC** | FreeBSD, Asterisk, SIP/VoIP |
+| **Networking** | Cisco Packet Tracer, GNS3, Wireshark, TCP/IP, VLANs, subnetting, routing, switching, troubleshooting |
+| **Security & Voice** | pfSense, Snort IDS/IPS, FreeBSD, Asterisk, SIP/VoIP, network segmentation |
+| **Cloud & Operations** | AWS fundamentals, Docker, Linux, Windows Server, Grafana, Prometheus |
+| **Automation & Development** | Python, Java, JavaScript, HTML, CSS, PHP, Next.js, Node.js, Bash, PowerShell |
+| **Tooling** | Git, GitHub Actions, VS Code, IntelliJ IDEA, NetBeans, Postman, VirtualBox, XAMPP, WAMP, Vercel |
 
 </details>
 
@@ -126,17 +171,6 @@ A Python-based network-monitoring project focused on **host availability, latenc
 `TCP/IP` · `IPv4 Subnetting` · `VLANs` · `Routing & Switching` · `Troubleshooting` · `Network Security` · `Linux Administration`
 
 **Learning:** CCNA-aligned networking fundamentals (knowledge and self-study; **not a claim of CCNA certification**).
-
----
-
-## GitHub Metrics
-
-<div align="center">
-  <img src="./assets/github-metrics.svg" alt="Live-generated public GitHub repository and star statistics" width="49%" />
-  <img src="./assets/languages.svg" alt="Languages calculated from public GitHub repositories by code bytes" width="49%" />
-</div>
-
-<sub>Numbers are generated using the GitHub REST API from public repositories, then refreshed by a scheduled GitHub Actions workflow. No manually inflated counts. Language percentages describe GitHub's reported code-byte totals across public repositories, not professional proficiency.</sub>
 
 ---
 
