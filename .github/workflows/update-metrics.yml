@@ -1,0 +1,34 @@
+name: Update profile metrics
+
+on:
+  schedule:
+    - cron: '23 2 * * *'  # daily in UTC; scheduled jobs can occasionally be delayed
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rebuild public repository statistics
+        env:
+          PROFILE_USER: fayajahamad
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_metrics.py
+      - name: Commit changed metric assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-metrics.svg assets/languages.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh public GitHub metrics"
+            git push
+          fi
